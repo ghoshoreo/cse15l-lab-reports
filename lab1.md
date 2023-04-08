@@ -54,4 +54,12 @@ Let us try some commands! As a refresher, I have taken the liberty to list a few
 4) cd <path> - “Change Directory” Used to switch the current working directory to the given path
 
 Here are a few of the commands I tried during my lab session. Feel free to try any of them!
+>
+  
 ![Image](Commands_screenshot.png)
+  
+*Conclusion*
+-------------
+That brings us to the end of the tutorial! Hope you had a good time!
+  
+ 

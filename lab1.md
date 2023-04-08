@@ -53,6 +53,5 @@ Let us try some commands! As a refresher, I have taken the liberty to list a few
 3) pwd - “Print working directory” Used to display the current working directory
 4) cd <path> - “Change Directory” Used to switch the current working directory to the given path
 
-
-
-
+Here are a few of the commands I tried during my lab session. Feel free to try any of them!
+![Image](Commands_screenshot.png)

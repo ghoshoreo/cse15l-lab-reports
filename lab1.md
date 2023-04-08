@@ -8,9 +8,10 @@ Overview: This lab report details the steps I took to during my own lab session.
 
 Contents
 --------
--Installing VSCode
--Remotely connecting
--Trying some command
+
+1. Installing VSCode
+2. Remotely connecting
+3. Trying some command
 
 
 Step 1: Installing Visual Studio Code (VSCode)
@@ -20,4 +21,6 @@ For my CSE11: "Intro to Programming" class, I had installed VSCode to run my cod
 However, here's a link to get you started: [Link](https://code.visualstudio.com/).
 
 After you have completed the required steps, you should have something that looks like this.
+
+![Image](VSCode_Screenshot.png)
 

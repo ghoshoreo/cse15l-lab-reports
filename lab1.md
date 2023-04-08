@@ -48,6 +48,8 @@ Step 3: Trying some commands
 
 Let us try some commands! 
 
+As a refresher, **ls** is a command used to list the files and directories.
+
 Here are a few of the commands I tried during my lab session. Feel free to try any of them! 
 
 

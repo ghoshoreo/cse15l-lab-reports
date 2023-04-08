@@ -46,18 +46,14 @@ Congratulations! Your terminal is connected to a computer in the CSE Basement. F
 Step 3: Trying some commands
 ----------------------------
 
-Let us try some commands! As a refresher, I have taken the liberty to list a few of the commands below:
+Let us try some commands! 
 
-1) cat <path1> <path2> ... Prints the contents of one or more files given by the paths
-2) ls <path> - “List” Used to list the files and folders the given path
-3) pwd - “Print working directory” Used to display the current working directory
-4) cd <path> - “Change Directory” Used to switch the current working directory to the given path
+Here are a few of the commands I tried during my lab session. Feel free to try any of them! 
 
-Here are a few of the commands I tried during my lab session. Feel free to try any of them!
->
-  
+
 ![Image](Commands_screenshot.png)
-  
+
+
 *Conclusion*
 -------------
 That brings us to the end of the tutorial! Hope you had a good time!

@@ -3,7 +3,7 @@ CSE 15L Lab Report 1
 **Welcome to Lab Report 1!** *This blog contains a tutorial for incoming CSE15L students.*
 
 
-Overview: This lab report details the steps I took to during my own lab session. These steps include setting up my system, logging into remote access, and understanding the various commands once can try on the terminal.
+Overview: This lab report details the steps I took to during my own lab session. These steps include setting up your system, logging into remote access, and understanding the various commands one can try on the terminal.
 
 
 Contents
@@ -11,7 +11,7 @@ Contents
 
 1. Installing VSCode
 2. Remotely connecting
-3. Trying some command
+3. Trying some commands
 
 
 Step 1: Installing Visual Studio Code (VSCode)
@@ -40,10 +40,18 @@ $ ssh cs15lsp23zz@ieng6.ucsd.edu
 
 Congratulations! Your terminal is connected to a computer in the CSE Basement. For reference, here is what a screenshot of my connection looked like (*keep in mind I had a few failed login attempts*)
 
-![Image](Screenshot_remote connection.png)
+![Image](Screenshot_remote_connection.png)
 
 
+Step 3: Trying some commands
+----------------------------
 
+Let us try some commands! As a refresher, I have taken the liberty to list a few of the commands below:
+
+1) cat <path1> <path2> ... Prints the contents of one or more files given by the paths
+2) ls <path> - “List” Used to list the files and folders the given path
+3) pwd - “Print working directory” Used to display the current working directory
+4) cd <path> - “Change Directory” Used to switch the current working directory to the given path
 
 
 

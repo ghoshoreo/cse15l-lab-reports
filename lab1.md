@@ -22,5 +22,28 @@ However, here's a link to get you started: [Link](https://code.visualstudio.com/
 
 After you have completed the required steps, you should have something that looks like this.
 
+
 ![Image](VSCode_Screenshot.png)
+
+Step 2: Remote Connecting
+-------------------------
+
+We will now proceed to the next step of this tutorial. Our next step is to install **git**. To install **git** for my system (Windows), I used the this link: [Link](https://gitforwindows.org/). Once **git** is downloaded, you need to set up the terminal in VSCode to use **git bash**. For Windows, this link should help: [Link](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)
+
+This brings us to end of our system setup! Now, we can use the **ssh** command to connect our system to the remote server. (*At this point, you should look up you sourse specific account. Follow this link to access it:* [Link](https://sdacs.ucsd.edu/~icc/index.php))
+
+Now, open a terminal in VScode. Your command will look like this, but with the zz replaced by the letters in your course-specific account.
+
+```
+$ ssh cs15lsp23zz@ieng6.ucsd.edu
+```
+
+Congratulations! Your terminal is connected to a computer in the CSE Basement. For reference, here is what a screenshot of my connection looked like (*keep in mind I had a few failed login attempts*)
+
+![Image](VSCode_Screenshot.png)
+
+
+
+
+
 

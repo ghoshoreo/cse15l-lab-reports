@@ -40,7 +40,8 @@ $ ssh cs15lsp23zz@ieng6.ucsd.edu
 
 Congratulations! Your terminal is connected to a computer in the CSE Basement. For reference, here is what a screenshot of my connection looked like (*keep in mind I had a few failed login attempts*)
 
-![Image](VSCode_Screenshot.png)
+![Image](Screenshot_remote connection.png)
+
 
 
 

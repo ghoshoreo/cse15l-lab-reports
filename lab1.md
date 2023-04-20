@@ -56,10 +56,10 @@ Here are is a brief list of the commands I tried during my lab session. Feel fre
 4. **cd**       : This command moves the current directory one directory backwards i.e the parent directory.
 5. **pwd**      : This command prints the current working directory.
 6. **touch**    : This command is used to create a new empty file.
-7. **ls -lat**  : This command lists all files and directories in a directory, sorted by modification time in reverse order, with the most recently modified files   listed           first.
+7. **ls -lat**  : This command lists all files and directories in a directory, sorted by modification time in reverse order, with the most recently modified files   listed first.
 8. **ls -a**    : This command lists all files and directories in a directory, including hidden files and directories that start with a dot.
 9. **cp**       : This command is used to copy files and directories.
-10. **exit**     : This command is used to terminate a shell session.
+10. **exit**    : This command is used to terminate a shell session.
 
 
 ![Image](screenshot_lab1_commands1.png)

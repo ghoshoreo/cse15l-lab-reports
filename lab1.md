@@ -48,9 +48,18 @@ Step 3: Trying some commands
 
 Let us try some commands! 
 
-As a refresher, **ls** is a command used to list the files and directories.
+Here are is a brief list of the commands I tried during my lab session. Feel free to try any of them! 
 
-Here are a few of the commands I tried during my lab session. Feel free to try any of them! 
+**mkDir**    : This command is used to create a new directory (folder) within the file system.
+**ls -d \*/**: This command lists all your directories (folders) within your current directory.
+**ls**       : This command lists all the files in rhe current directory.
+**cd**       : This command moves the current directory one directory backwards i.e the parent directory.
+**pwd**      : This command prints the current working directory.
+**touch**    : This command is used to create a new empty file.
+**ls -lat**  : This command lists all files and directories in a directory, sorted by modification time in reverse order, with the most recently modified files listed                first.
+**ls -a**    : This command lists all files and directories in a directory, including hidden files and directories that start with a dot.
+**cp**       : This command is used to copy files and directories.
+**exit**     : This command is used to terminate a shell session.
 
 
 ![Image](screenshot_lab1_commands1.png)

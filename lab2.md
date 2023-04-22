@@ -66,12 +66,12 @@ The following is a failure inducing input for the buggy program.
 The following is a non failure inducing input for the buggy program.
 
 ```
-	@Test 
-	public void testReverseInPlace() {
+   @Test 
+   public void testReverseInPlace() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
-	}
+   }
 ```
 
 Given below is the screenshot of the symptop.

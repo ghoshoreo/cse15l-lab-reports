@@ -104,9 +104,9 @@ static void reverseInPlace(int[] arr) {
 
 The main issue with the original version of the program was that the original value of `arr[i]` was being lost as it was not stored in any temporary variable. Consequently, the new value of `arr[i]` was being assigned to `arr[arr.length - i - 1]`. The modified version of the program addresses this issue by first storing the original value of `arr[i]` in a temporary variable declared as `temp`. This corrected the misassignment of values to `arr[arr.length - i - 1]`.
 
-Another issue that the modifed version of the program fixes is the nummber of iterations or traversals in the The modified version of the program fixes the issue. The modified version traverses till `arr.length/2`, which allows all the elements to swap symmetrically with each other, something that the original program did not account for.
+Another issue that the modifed version of the program fixes is the number of iterations or traversals. The modified version traverses till `arr.length/2`, which allows all the elements to swap symmetrically with each other, something that the original program did not account for.
 
-The modified version of the program fixes these issues. Note that the symptoms of the bugggy program now disappear.
+The modified version of the program fixes these issues. Note that the symptoms of the buggy program now disappear.
 
 ![Image](symptom_gone_task2.png)
 
@@ -122,7 +122,7 @@ Finally, for task 3, I would like to share a few facts that I was not aware of p
 4. URLs may be accessed from the command line with `curl`.
 
 
-*This brings us to the end of my lan report 2 for CSE15L. Thanks for reading through! :)*
+*This brings us to the end of my lab report 2 for CSE15L. Thanks for reading through! :)*
 
 
 

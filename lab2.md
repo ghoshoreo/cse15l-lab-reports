@@ -47,7 +47,7 @@ For Task 2, I choose to write tests and subsequently fix the buggy program `reve
 ```
 static void reverseInPlace(int[] arr) {
   for(int i = 0; i < arr.length; i+=1) {
-    arr[i] = arr[arr.length - i];
+    arr[i] = arr[arr.length - i -1 ];
   }
 }
 ```
@@ -74,15 +74,55 @@ The following is a non failure inducing input for the buggy program.
    }
 ```
 
-Given below is the screenshot of the symptom.
+Given below is the screenshot of the symptom upon running the buggy program.
+
+![Image](lab2_task2_symptoms.png)
+
+Let us now proceed with fixing the bug. 
+
+*Before:-*
+
+```
+static void reverseInPlace(int[] arr) {
+  for(int i = 0; i < arr.length; i+=1) {
+    arr[i] = arr[arr.length - i - 1];
+  }
+}
+```
+
+*After:-*
+
+```
+ static void reverseInPlace(int[] arr) {
+   for(int i = 0; i < arr.length/2; i += 1) {
+     int temp =arr[i];
+     arr[i] = arr[arr.length - i - 1];
+     arr[arr.length - i - 1] = temp;
+   }
+ }
+```
+
+The main issue with the original version of the program was that the original value of `arr[i]` was being lost as it was not stored in any temporary variable. Consequently, the new value of `arr[i]` was being assigned to `arr[arr.length - i - 1]`. The modified version of the program addresses this issue by first storing the original value of `arr[i]` in a temporary variable declared as `temp`. This corrected the misassignment of values to `arr[arr.length - i - 1]`.
+
+Another issue that the modifed version of the program fixes is the nummber of iterations or traversals in the The modified version of the program fixes the issue. The modified version traverses till `arr.length/2`, which allows all the elements to swap symmetrically with each other, something that the original program did not account for.
+
+The modified version of the program fixes these issues. Note that the symptoms of the bugggy program now disappear.
+
+![Image](symptom_gone_task2.png)
 
 
+Task 3
+------
+
+Finally, for task 3, I would like to share a few facts that I was not aware of prior to week 2/3 of CSE 15L Spring 2023.
+
+1. A symptom is a faulty behavior exhibited by the program.
+2. One bug may cause multiple symptoms.
+3. The same symptom may be caused by multiple different bugs.
+4. URLs may be accessed from the command line with `curl`.
 
 
-
-
-
-
+*This brings us to the end of my lan report 2 for CSE15L. Thanks for reading through! :)*
 
 
 

@@ -23,9 +23,10 @@ Given below is the code for `StringServer`, followed by two screenshots of using
 
 Let us examine each of the screenshots in detail.
 
-1. **Screenshot 1**
-... The method `handleRequest` in my code is called. Its argument is `url` of class `URI`. There are two fields in that method, namely `message` and `parameters`. The method `handleRequest` calls additional methods. These methods are `getPath()`, `equals()`, `split()`, and `getQuery()`.
+**Screenshot 1**
 
-... The argument `http://localhost:5000/add-message?s="Hello"` is passed as the field `url` the method `handleRequest`. The field `parameters` stores the array of Strings value `{"s", ""Hello""}`. The value of the field `message` returns the String value `""Hello""`.
+* The method `handleRequest` in my code is called. Its argument is `url` of class `URI`. There are two fields in that method, namely `message` and `parameters`. The method `handleRequest` calls additional methods. These methods are `getPath()`, `equals()`, `split()`, and `getQuery()`.
 
-... Due to passing the request `/add-message?s="Hello"`, the field `parameters` was initialized and the value of the field `message` initialized and subsequently changed. The value of the field `message` was initialized to the empty String `""`. The value of the field  `parameters` was initialized to the array of Strings value `{"s", ""Hello""}`. Upon completion of the method run, the value of the field `message` changed to the String value  `""Hello""`. 
+* The argument `http://localhost:5000/add-message?s="Hello"` is passed as the field `url` the method `handleRequest`. The field `parameters` stores the array of Strings value `{"s", ""Hello""}`. The value of the field `message` returns the String value `""Hello""`.
+
+* Due to passing the request `/add-message?s="Hello"`, the field `parameters` was initialized and the value of the field `message` initialized and subsequently changed. The value of the field `message` was initialized to the empty String `""`. The value of the field  `parameters` was initialized to the array of Strings value `{"s", ""Hello""}`. Upon completion of the method run, the value of the field `message` changed to the String value  `""Hello""`. 

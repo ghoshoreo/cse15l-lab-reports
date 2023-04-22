@@ -74,7 +74,8 @@ The following is a non failure inducing input for the buggy program.
    }
 ```
 
-Given below is the screenshot of the symptop.
+Given below is the screenshot of the symptom.
+
 
 
 

@@ -1,6 +1,6 @@
 Lab Report 2
 =============
-Welcome to my secong lab report for CSE 15L. This lab report is divided into three parts, reflecting the three tasks for this lab report.
+Welcome to my second lab report for CSE 15L. This lab report is divided into three parts, reflecting the three tasks for this lab report.
 
 Task 1
 ------

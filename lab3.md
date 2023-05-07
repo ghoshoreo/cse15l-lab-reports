@@ -21,6 +21,7 @@ The `-w` option matches the pattern only as a whole word.
 **Example 1**
 
 *Input*:
+
 `[cs15lsp23rg@ieng6-203]:stringsearch:468$ grep -w  on ./stringsearch-data/technical/biomed/1468-6708-3-1.txt`
 
 *Output*:
@@ -44,9 +45,11 @@ The `-w` option matches the pattern only as a whole word.
 **Example 2**
 
 *Input*:
+
 `[cs15lsp23rg@ieng6-203]:stringsearch:469$ grep -w most  ./stringsearch-data/technical/biomed/1468-6708-3-1.txt`
 
 *Output*:
+
 `        most robust health as we age. It has been suggested that
         men were most likely to have unintentionally lost more than
         lost to death (7 minus YOL). White women had the most YHL
@@ -63,9 +66,11 @@ The `-i` option performs a case-insensitive search.
 **Example 1**
 
 *Input*:
+
 `[cs15lsp23rg@ieng6-203]:stringsearch:471$ grep -i THIS ./stringsearch-data/technical/biomed/1468-6708-3-1.txt`
 
 *Output*:
+
 `        events [ 10 ] . In this paper we study whether BMI at
           For this analysis we defined YHL as the number of
           drawback of this simple definition of 'healthy' is that
@@ -84,9 +89,11 @@ The `-i` option performs a case-insensitive search.
 **Example 2**
 
 *Input*:
+
 `[cs15lsp23rg@ieng6-203]:stringsearch:472$ grep -i analysis ./stringsearch-data/technical/biomed/1468-6708-3-1.txt`
 
 *Output*:
+
 `          For this analysis we defined YHL as the number of
           primary analysis we used observed 7-year YOL and YHL when
           this analysis is based.
@@ -106,9 +113,11 @@ The `-n` option displays the matching lines along with their respective line num
 **Example 1**
 
 *Input*:
+
 `[cs15lsp23rg@ieng6-203]:stringsearch:473$ grep -n  analysis ./stringsearch-data/technical/biomed/1468-6708-3-1.txt`
 
 *Output*:
+
 `
 94:          For this analysis we defined YHL as the number of
 117:          primary analysis we used observed 7-year YOL and YHL when
@@ -121,9 +130,11 @@ The `-n` option displays the matching lines along with their respective line num
 **Example 2**
 
 *Input*:
+
 `[cs15lsp23rg@ieng6-203]:stringsearch:473$ grep -n  obsese ./stringsearch-data/technical/biomed/1468-6708-3-1.txt`
 
 *Output*:
+
 `
 184:        percent obese (BMI ≥ 30) than the other three groups. Black
 259:        classified as normal, overweight or obese all had about the
@@ -146,17 +157,21 @@ The `-c` option displays the number of matching lines.
 **Example 1**
 
 *Input*:
+
 `[cs15lsp23rg@ieng6-203]:stringsearch:473$ grep -n  obsese ./stringsearch-data/technical/biomed/1468-6708-3-1.txt`
 
 *Output*:
+
 `10`
 
 **Example 2**
 
 *Input*:
+
 `[cs15lsp23rg@ieng6-203]:stringsearch:479$ grep -c analysis ./stringsearch-data/technical/biomed/1468-6708-3-1.txt`
 
 *Output*:
+
 `6`
 
 In summary, the `-c` option of the `grep` command is particularly useful when you only need to count the total number of occurences of a given string. This can come in clutch when you are searching for common words like "in" or "the" and want to avoid seeing all the lines in which the word appears.

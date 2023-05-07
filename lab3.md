@@ -93,9 +93,9 @@ The `-i` option performs a case-insensitive search.
 `[cs15lsp23rg@ieng6-203]:stringsearch:472$ grep -i analysis ./stringsearch-data/technical/biomed/1468-6708-3-1.txt`
 
 *Output*:
-
-`          For this analysis we defined YHL as the number of
-          primary analysis we used observed 7-year YOL and YHL when
+`
+          For this analysis we defined YHL as the number of
+          primary analysis we used observed 7-year YOL and YHL why
           this analysis is based.
           Analysis
           intervals or analysis of variance. Finally we calculated
@@ -120,10 +120,15 @@ The `-n` option displays the matching lines along with their respective line num
 
 `
 94:          For this analysis we defined YHL as the number of
+
 117:          primary analysis we used observed 7-year YOL and YHL when
+
 146:          this analysis is based.
+
 168:          intervals or analysis of variance. Finally we calculated
+
 372:          more traditional survival analysis survival analysis was
+
 404:        present in the mortality analysis, suggesting that YHL may`
 
 
@@ -137,14 +142,23 @@ The `-n` option displays the matching lines along with their respective line num
 
 `
 184:        percent obese (BMI ≥ 30) than the other three groups. Black
+
 259:        classified as normal, overweight or obese all had about the
+
 263:        about 4.9 YHL. The YHL for underweight or obese women was
+
 269:        the sexes had similar YHL in the underweight and obese
+
 294:        would be needed. For comparing obese to normal, only YHL
+
 299:        make obese women comparable to normal women could be
+
 303:        overweight (for men or women) or obese (for men) affects
+
 322:          overweight (as opposed to the obese) are no different
+
 336:          being obese to being normal would likely show changes in
+
 412:        obese or underweight older adults, and discouraging trials`
 
 The `-n` is handy when you need to search the line numbers associated with a given string. It can be particularly helpful when you need to locate specific lines in a file or when you need to extract data from log files or other types of text files.

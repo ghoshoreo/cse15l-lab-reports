@@ -93,6 +93,7 @@ The `-i` option performs a case-insensitive search.
 `[cs15lsp23rg@ieng6-203]:stringsearch:472$ grep -i analysis ./stringsearch-data/technical/biomed/1468-6708-3-1.txt`
 
 *Output*:
+
 `
           For this analysis we defined YHL as the number of
           primary analysis we used observed 7-year YOL and YHL why

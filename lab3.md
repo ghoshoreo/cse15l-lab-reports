@@ -119,7 +119,7 @@ The `-n` option displays the matching lines along with their respective line num
 
 *Output*:
 
-`
+
 94:          For this analysis we defined YHL as the number of
 
 117:          primary analysis we used observed 7-year YOL and YHL when
@@ -130,7 +130,7 @@ The `-n` option displays the matching lines along with their respective line num
 
 372:          more traditional survival analysis survival analysis was
 
-404:        present in the mortality analysis, suggesting that YHL may`
+404:        present in the mortality analysis, suggesting that YHL may
 
 
 **Example 2**
@@ -141,7 +141,7 @@ The `-n` option displays the matching lines along with their respective line num
 
 *Output*:
 
-`
+
 184:        percent obese (BMI ≥ 30) than the other three groups. Black
 
 259:        classified as normal, overweight or obese all had about the
@@ -160,7 +160,7 @@ The `-n` option displays the matching lines along with their respective line num
 
 336:          being obese to being normal would likely show changes in
 
-412:        obese or underweight older adults, and discouraging trials`
+412:        obese or underweight older adults, and discouraging trials
 
 The `-n` is handy when you need to search the line numbers associated with a given string. It can be particularly helpful when you need to locate specific lines in a file or when you need to extract data from log files or other types of text files.
 

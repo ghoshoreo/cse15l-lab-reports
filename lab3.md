@@ -24,6 +24,7 @@ The `-w` option matches the pattern only as a whole word.
 `[cs15lsp23rg@ieng6-203]:stringsearch:468$ grep -w  on ./stringsearch-data/technical/biomed/1468-6708-3-1.txt`
 
 *Output*:
+
 `        on health than on mortality. If so, then behavior change
         they were evaluated on improved health, rather than on
         analyses based on years of life (YOL) or on YHL would

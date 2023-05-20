@@ -13,4 +13,9 @@ In this Lab Report, we will explore some of the lab tasks from week 7. Specifica
  
   Keys Pressed: The command `git clone https://github.com/ucsd-cse15l-s23/lab7` was 12 up in my search history, so I used the arrow key to access it. Once accessed, I ran it by hitting the  `<enter>` key. Since I had performed this step earlier in my lab, directory existed in my device. Given below is a screenshot of this step.
   
+![Image](lab4_step3_scr1.png)
+
+ * Step 3: Run the tests, demonstrating that they fail
+ 
+  Keys Pressed: First, I typed the command `cd lab7`. Subsequently, I typed the command `ls` to have a glance at the contents of the directory. To look at the contents of the file `test.sh`, I typed the command `cat test.sh`. Upon learning that they contained the commands required to run the tests, I typed the command `bash test.sh` to deploy the program. Given below are the screenshots of this step.
   

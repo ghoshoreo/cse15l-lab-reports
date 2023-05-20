@@ -25,8 +25,13 @@ In this Lab Report, we will explore some of the lab tasks from week 7. Specifica
   * Step 4: Edit the code file to fix the failing test
     
    Keys Pressed: The command `vim ListExamples.java` was 4 up in my search history, so I used the arrow key to access it. Once accessed, I ran it by hitting the `<enter>` key. On opening the file in vim, I observed the error in Line 43 of the text file. To navigat the cursor to line 43, I pressed the colon key to enter the command mode, followed by the line number 43 (i.e. `:43`), and finally hit the `<enter>` key. Then, I used the left arrow key 10 times to reach the error in the code. Following that, I pressed the `delete` key to remove the incorrect number `2`. To insert the correct number, I entered th insert mode of `vim` using the key `i`. Then, I inserted the correct number `1` to fix the bug in the code. To exit the insert mode, I used the `esc` key. To save and exit the `vim` terminal, I typed the command `:wq!`. Given below are the screenshots of this step.
+   
+![Image](lab4_step4_scr1.png)
+![Image](lab4_step4_scr2.png)
     
   * Step 5: Run the tests, demonstrating that they now succeed
 
    Keys Pressed: The command `bash test.sh` was 2 up in my search history, so I used the arrow key to access it. Once accessed, I ran it by hitting the `<enter>` key. Given below is the screenshot of this step.
+
+![Image](lab4_step5_scr1.png)
   

@@ -35,3 +35,7 @@ In this Lab Report, we will explore some of the lab tasks from week 7. Specifica
 
 ![Image](lab4_step5_scr1.png)
   
+  * Step 6: Commit and push the resulting change to your Github account
+   
+   Keys Pressed: First, I typed the command `git add ListExamples.java` and hit the `<enter>` key. Subsequently, I typed the command `git commit` and hit the `<enter>` key.. Next, I was directed to a vim terminal, wherin I typed the the commit message `changed!` in the insert mode using `i`. I exited the insert mode using `esc` key, followed by typing the command `:wq!` to save and exit the terminal. Given below is the screenshot of this step.
+   

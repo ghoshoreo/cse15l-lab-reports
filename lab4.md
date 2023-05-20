@@ -13,9 +13,20 @@ In this Lab Report, we will explore some of the lab tasks from week 7. Specifica
  
   Keys Pressed: The command `git clone https://github.com/ucsd-cse15l-s23/lab7` was 12 up in my search history, so I used the arrow key to access it. Once accessed, I ran it by hitting the  `<enter>` key. Since I had performed this step earlier in my lab, directory existed in my device. Given below is a screenshot of this step.
   
-![Image](lab4_step3_scr1.png)
+![Image](lab4_step2_scr1.png)
 
  * Step 3: Run the tests, demonstrating that they fail
  
   Keys Pressed: First, I typed the command `cd lab7`. Subsequently, I typed the command `ls` to have a glance at the contents of the directory. To look at the contents of the file `test.sh`, I typed the command `cat test.sh`. Upon learning that they contained the commands required to run the tests, I typed the command `bash test.sh` to deploy the program. Given below are the screenshots of this step.
+  
+![Image](lab4_step3_scr1.png)
+![Image](lab4_step3_scr2.png)
+
+  * Step 4: Edit the code file to fix the failing test
+    
+   Keys Pressed: The command `vim ListExamples.java` was 4 up in my search history, so I used the arrow key to access it. Once accessed, I ran it by hitting the `<enter>` key. On opening the file in vim, I observed the error in Line 43 of the text file. To navigat the cursor to line 43, I pressed the colon key to enter the command mode, followed by the line number 43 (i.e. `:43`), and finally hit the `<enter>` key. Then, I used the left arrow key 10 times to reach the error in the code. Following that, I pressed the `delete` key to remove the incorrect number `2`. To insert the correct number, I entered th insert mode of `vim` using the key `i`. Then, I inserted the correct number `1` to fix the bug in the code. To exit the insert mode, I used the `esc` key. To save and exit the `vim` terminal, I typed the command `:wq!`. Given below are the screenshots of this step.
+    
+  * Step 5: Run the tests, demonstrating that they now succeed
+
+   Keys Pressed: The command `bash test.sh` was 2 up in my search history, so I used the arrow key to access it. Once accessed, I ran it by hitting the `<enter>` key. Given below is the screenshot of this step.
   

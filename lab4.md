@@ -39,3 +39,7 @@ In this Lab Report, we will explore some of the lab tasks from week 7. Specifica
    
    Keys Pressed: First, I typed the command `git add ListExamples.java` and hit the `<enter>` key. Subsequently, I typed the command `git commit` and hit the `<enter>` key.. Next, I was directed to a vim terminal, wherin I typed the the commit message `changed!` in the insert mode using `i`. I exited the insert mode using `esc` key, followed by typing the command `:wq!` to save and exit the terminal. Given below is the screenshot of this step.
    
+![Image](lab4_step6_scr1.png)
+
+*This brings us to the end of my lab report 4 for CSE15L. Thanks for reading through! :)*
+   

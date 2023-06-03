@@ -8,5 +8,20 @@ Part 2 of this lab report is a reflection on my learning experience in CSE15L. I
 
 **EdStem Post**
 
+![Image](edstem1_lab5.png)
+![Image](edstem2_lab5.png)
+![Image](edstem3_lab5.png)
+![Image](edstem4_lab5.png)
+
+**TA/Tutor Response**
+
+*Your code for reverseInPlace seems correct. Perhaps the error lies in your tests and not in your method? Please verify the expected and actual values from your tests*
+
+**Student Response**
+
+*Thanks for the response. After reviewing my tests again, I realized that I had inserted the incorrect expected value for my first test. I have now fixed that error*
+
+
+
 
 

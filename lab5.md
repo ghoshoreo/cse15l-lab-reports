@@ -19,8 +19,11 @@ Part 2 of this lab report is a reflection on my learning experience in CSE15L. I
 
 **Student Response**
 
-*Thanks for the response. After reviewing my tests again, I realized that I had inserted the incorrect expected value for my first test. I have now fixed that error*
+*After reviewing my tests again, I realized that I had inserted the incorrect expected value for my first test. I have now fixed that error. Thanks for the help. *
 
+![Image](tests_fixed.png)
+![Image](tests_success_bash.png)
+![Image](vs_code_class_files.png)
 
 
 
